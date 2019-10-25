@@ -1,0 +1,45 @@
+@charset "utf-8";
+.lunbo{width: 100%;overflow:hidden ;position: relative;}
+section{width: 1100px;height: 520px;position: relative;margin: auto;top: 0;left: 0;right: 0;bottom: 0;}
+.leftStore,.rightStore{position: absolute;top:0;height: 100%;background: rgba(0,0,0,0.5);z-index: 2;}
+.home1 {width: 100%;height: 100%;perspective: 1000px;transform-style: preserve-3d;}
+.home1 li {position: absolute;top:0;right: 0;bottom: 0;left: 0;width: 100%;height: 100%;visibility: hidden;}
+.home1 li:nth-of-type(1) {background: #dc6c5f;visibility: visible;}			
+.home1 li:nth-of-type(2) {background:#95dc84;}	
+.home1 li:nth-of-type(3) {background:#64b9d2;}
+.home1 li:nth-of-type(4) {background:#000000;}
+.home1 li div{text-align: center;}
+/*左边隐藏 右边出现*/
+.home1 li.leftHide {visibility: hidden;animation:1s leftHide linear;}
+.home1 li.rightShow{visibility: visible;animation: 1s rightShow linear;}
+@keyframes leftHide{
+	0%{visibility: visible;}
+	50%{transform: translateX(-40%) rotateY(30deg) scale(0.8);}
+	100%{transform: translateZ(-200px)}
+}
+@keyframes rightShow{
+	0%{visibility: hidden;transform: translateZ(-200px)}
+	50%{transform: translateX(40%) rotateY(-30deg) scale(0.8);}
+	100%{}
+}
+/*左边出现 右边隐藏*/
+#progress .section .uls .home .home1 li.leftShow{visibility: visible;animation: 1s leftShow linear;}
+#progress .section .uls .home .home1 li.rightHide{visibility: hidden;animation:1s rightHide linear;}
+@keyframes leftShow{
+	0%{visibility: hidden;transform: translateZ(-200px)}
+	50%{transform: translateX(-40%) rotateY(30deg) scale(0.8);}
+	100%{}
+	
+}
+@keyframes rightHide{
+	0%{visibility: visible;}
+	50%{transform: translateX(40%) rotateY(-30deg) scale(0.8);}
+	100%{transform: translateZ(-200px)}
+}
+.commonTitle{width: 100%;height: 100%}
+.commonTitle img{width: 100%;height: 100%;display: inline-block;}
+.home2 {position: absolute;text-align: center;bottom: 0;left: 0;right: 0;}
+.home2 li {width: 20px;height: 20px;display: inline-block;background: rgba(255,255,255,0.5);
+				box-shadow: 0 0 4px rgba(25,25,25,0.8);border-radius: 5px;cursor: pointer
+				;}
+.home2 li.active {background: white;cursor:default}

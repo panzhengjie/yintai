@@ -1,0 +1,129 @@
+.wuye {
+  margin-top: 20px;
+}
+.wuye p {
+  line-height: 2;
+  text-indent: 2em;
+}
+.wuyeImg {
+  margin: 20px auto 0 ;
+}
+.beiyongdianli {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.beiyongdianli .beiyongImg {
+  border: 5px solid #e6e6e6;
+  margin-top: 20px;
+}
+.beiyongdianli .beiyongText {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.beiyongdianli .beiyongText .beiyongTextItem {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.beiyongdianli .beiyongText .beiyongTextItem:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border: 5px solid #5975ac;
+}
+.beiyongdianli .beiyongText .beiyongTextItem h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.beiyongdianli .beiyongText .beiyongTextItem p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #969696;
+}
+.dianti {
+  margin-top: 20px;
+  width: 100%;
+}
+.dianti .diantiText {
+  width: 70%;
+  margin: 0 auto;
+}
+.dianti .diantiText p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.diantiMore {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.diantiItme .diantiImg {
+  margin-bottom: 20px;
+  border: 5px solid #e6e6e6;
+}
+.diantiItme .diantiImgText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.diantiItme .diantiImgText .diantiImgTextItem {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.diantiItme .diantiImgText .diantiImgTextItem:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border: 5px solid #5975ac;
+}
+.diantiItme .diantiImgText .diantiImgTextItem h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.diantiItme .diantiImgText .diantiImgTextItem p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #969696;
+}
+.xiaofang {
+  margin-top: 40px;
+}
+.xiaofang .diantiItme {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tongxun .diantiImgText {
+  justify-content: flex-start;
+  padding-right: 60px!important;
+}
+.gonggong .diantiImgText {
+  justify-content: flex-start;
+  padding-right: 60px!important;
+}
+.weisheng {
+  margin-bottom: 50px;
+}

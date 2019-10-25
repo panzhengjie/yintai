@@ -1,0 +1,110 @@
+.zulin {
+  padding: 0 50px;
+}
+.zulin .zulinText {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.zulin .zulinImgs {
+  margin-top: 30px;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.zulin .zulinImgs .zulinImgsItem {
+  border-radius: 3px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.zulin .zulinImgs .zulinImgsItem .toShowText {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+.zulin .zulinMore {
+  width: 100%;
+  height: 513px;
+  margin-top: 40px;
+}
+.zulin .zulinMore h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.zulin .zulinMore .zulinForms {
+  width: 100%;
+  background: url('../images2/57.jpg') no-repeat;
+  background-size: 100%;
+  color: white;
+}
+.zulin .zulinMore .zulinForms .zulinForm {
+  width: 100%;
+  height: 390px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.zulin .zulinMore .zulinForms .zulinForm h2 {
+  padding: 20px 0;
+  text-align: center;
+}
+.zulin .zulinMore .zulinForms .zulinForm form .formInput {
+  margin-bottom: 30px;
+}
+.zulin .zulinMore .zulinForms .zulinForm form .formInput .label2 {
+  vertical-align: top;
+}
+.zulin .zulinMore .zulinForms .zulinForm form label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+}
+.zulin .zulinMore .zulinForms .zulinForm form input {
+  width: 400px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.zulin .zulinMore .zulinForms .zulinForm form input[type='submit'] {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background: rgba(150, 150, 150, 0.5);
+  cursor: pointer;
+}
+.zulin .zulinMore .zulinForms .zulinForm form textarea {
+  width: 400px;
+  background: rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+.bottomForm {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  line-height: 50px;
+  border-radius: 5px;
+}
