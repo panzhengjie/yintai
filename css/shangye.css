@@ -1,0 +1,303 @@
+.shangye {
+  width: 100%;
+  margin: 30px auto;
+}
+.shangye .shangyeDetailText {
+  padding: 0 60px;
+  text-indent: 2em;
+  line-height: 2;
+  color: #8c8c8c;
+}
+.shangye .shangyeImg {
+  width: 100%;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.shangye .shangyeImg .shangyeItem {
+  background: #e3e3e3;
+  margin-right: 20px;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.shangye .shangyeImg .shangyeItem:nth-of-type(3) {
+  margin-right: 0;
+}
+.shangye .shangyeImg .shangyeItem .shangyeItmeImgText {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #505050;
+  padding: 0 10px;
+}
+.shangye .shangyeImg .shangyeItem .shangyeItmeImgText h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.shangye .shangyeImg .shangyeItem .shangyeItmeImgText p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.hotel {
+  width: 100%;
+  margin: 30px auto;
+}
+.hotel .hotelImgs {
+  width: 100%;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.hotel .hotelImgs .leftHotelImgs {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.hotel .hotelImgs .leftHotelImgs .topHotelImgs {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.hotel .hotelImgs .leftHotelImgs .topHotelImgs .leftHotelImg {
+  padding-right: 10px;
+}
+.hotel .hotelImgs .leftHotelImgs .topHotelImgs .rightHotelImg {
+  padding-left: 10px ;
+  border-left: 1px solid #b4b4b4;
+}
+.hotel .hotelImgs .leftHotelImgs .bottomHotelImgs {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.hotel .hotelImgs .leftHotelImgs .bottomHotelImgs .leftHotelImg {
+  padding-right: 10px;
+}
+.hotel .hotelImgs .leftHotelImgs .bottomHotelImgs .rightHotelImg {
+  padding-left: 10px ;
+}
+.hotel .hotelImgs .rightHotelImgs {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.hotel .hotelImgs .rightHotelImgs .leftHotelImg {
+  padding-right: 10px;
+}
+.hotel .hotelImgs .rightHotelImgs .rightHotelImg {
+  padding-left: 10px ;
+}
+.hotel .hotelText {
+  margin-top: 20px;
+  text-indent: 2em;
+  line-height: 2;
+  color: #8c8c8c;
+}
+.duanlian {
+  margin-top: 30px;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.duanlian .duanlianRight .duanlianTopImg {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.duanlian .duanlianRight .duanlianTopImg .duanlianTopImgTtem {
+  margin-right: 10px;
+}
+.duanlian .duanlianRight .duanlianRightText {
+  margin-top: 15px;
+  padding: 0 40px;
+}
+.duanlian .duanlianRight .duanlianRightText p {
+  text-indent: 2em;
+  line-height: 2;
+  color: #8c8c8c;
+}
+.bank {
+  margin-top: 30px;
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.bank .bankText {
+  padding: 0 40px;
+}
+.bank .bankText p {
+  text-indent: 2em;
+  line-height: 2;
+  color: #8c8c8c;
+}
+.footer {
+  margin-top: 50px;
+}
